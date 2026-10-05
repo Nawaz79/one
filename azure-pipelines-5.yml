@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: flm-pool
+  name: flm-pool
 
 steps:
 - script: echo Hello, world!
