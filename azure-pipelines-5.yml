@@ -32,4 +32,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'docker run -t myimage .'
+    script: 'docker build -t myimage .'
